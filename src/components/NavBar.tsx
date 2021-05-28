@@ -1,12 +1,13 @@
 import React from "react";
+import { NavBarWrapper } from "../styles/NavBar.style";
 
 interface NavBarProps {}
 
 const NavBar: React.FC<NavBarProps> = ({}) => {
   return (
-    <div>
-      <h1>yo</h1>
-    </div>
+    <NavBarWrapper>
+      <h1>Pokedex</h1>
+    </NavBarWrapper>
   );
 };
 
