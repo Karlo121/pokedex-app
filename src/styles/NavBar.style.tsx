@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const NavBarWrapper = styled.div`
-  font-family: "Avenir Next";
+  font-family: "Impact";
   color: white;
   font-weight: 1000;
   font-size: 60px;
@@ -14,7 +14,7 @@ export const NavBarWrapper = styled.div`
     padding: 10px;
 
     :hover {
-      color: grey;
+      color: #dacfcf;
     }
   }
 `;
