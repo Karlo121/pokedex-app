@@ -34,8 +34,11 @@ export function Type(props) {
       return <TypeBox color={"#96D9D6"}>{props.type}</TypeBox>;
     } else if (props.type === "Dragon") {
       return <TypeBox color={"#6F35FC"}>{props.type}</TypeBox>;
+    } else if (props.type === "Steel") {
+      return <TypeBox color={"#B7B7CE"}>{props.type}</TypeBox>;
+    } else if (props.type === "Dark") {
+      return <TypeBox color={"#705746"}>{props.type}</TypeBox>;
     }
-
     return <h1>{props.type}</h1>;
   } else {
     return <></>;
