@@ -12,6 +12,7 @@ export const NavBarWrapper = styled.div`
   clear: both;
   h1 {
     padding: 10px;
+    width: 250px;
 
     :hover {
       color: #dacfcf;
