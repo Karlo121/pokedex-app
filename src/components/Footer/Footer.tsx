@@ -1,9 +1,7 @@
 import React from 'react';
-import { StyledFooter } from '../styles/Footer.style';
+import { StyledFooter } from './Footer.style';
 
-interface NavBarProps {}
-
-const Footer: React.FC<NavBarProps> = ({}) => {
+const Footer = () => {
   return (
     <StyledFooter>
       <h1>Karlo Balon</h1>

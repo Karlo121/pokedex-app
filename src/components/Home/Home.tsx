@@ -5,9 +5,9 @@ import {
   OuterHomeWrap,
   StyledHeader,
   StyledLink,
-} from '../styles/Home.style';
+} from './Home.style';
 
-const Home = ({}) => {
+const Home = () => {
   return (
     <>
       <StyledHeader>

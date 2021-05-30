@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Pokedex from './components/Pokedex';
-import Navbar from './components/NavBar';
+import Pokedex from './components/Pokedex/Pokedex';
+import Navbar from './components/Navbar/NavBar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './components/Home';
-import Footer from './components/Footer';
+import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
 
 ReactDOM.render(
   <React.StrictMode>

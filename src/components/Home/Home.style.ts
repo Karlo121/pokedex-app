@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import pokeball from '../data/img/pokeball.png';
+import pokeball from '../../data/img/pokeball.png';
 import { Link } from 'react-router-dom';
 
 const rotate = keyframes`
