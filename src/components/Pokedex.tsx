@@ -1,24 +1,23 @@
-import React from "react";
-import PokedexData from "../data/pokedex.json";
+import PokedexData from '../data/pokedex.json';
 import {
   PokedexWrapper,
   StyledSearch,
   OuterWrapper,
   SearchWrapper,
   SearchHeader,
-} from "../styles/Pokedex.style";
-import { useState } from "react";
-import Pokemon from "../components/Pokemon";
+} from '../styles/Pokedex.style';
+import { useState } from 'react';
+import Pokemon from '../components/Pokemon';
 
 export const Pokedex = ({}) => {
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState('');
   return (
     <OuterWrapper>
       <SearchWrapper>
-        <SearchHeader color={"#ff5959"}>Search</SearchHeader>
+        <SearchHeader color={'#ff5959'}>Search</SearchHeader>
         <StyledSearch
-          type="text"
-          placeholder="search by type or name"
+          type='text'
+          placeholder='search by type or name'
           onChange={(event) => {
             setSearchTerm(event.target.value);
           }}
@@ -27,7 +26,7 @@ export const Pokedex = ({}) => {
 
       <PokedexWrapper>
         {PokedexData.filter((pokemon) => {
-          if (searchTerm === "") {
+          if (searchTerm === '') {
             return pokemon;
           } else if (
             pokemon.name.english

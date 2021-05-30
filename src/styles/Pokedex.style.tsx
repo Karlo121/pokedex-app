@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledBox = styled.div`
   border-radius: 10px;
@@ -70,14 +70,14 @@ export const StatHeader = styled.h1`
   color: ${(props) => props.color};
   font-weight: 800;
   font-size: 18px;
-  font-family: "Arial";
+  font-family: 'Arial';
 `;
 
 export const StyledSearch = styled.input`
   width: 300px;
   display: table;
   margin: 0 auto;
-  border: 2px solid #db4242;
+  border: 2px solid #fe3c00;
   border-radius: 20px;
   margin-top: 10px;
   height: 40px;
@@ -92,9 +92,10 @@ export const SearchWrapper = styled.div`
   width: 400px;
   margin: 0 auto;
   margin-top: 10px;
+  margin-bottom: 10px;
 `;
 export const SearchHeader = styled.div`
-  color: #db4242;
+  color: #fe3c00;
   font-size: 30px;
   font-weight: 600;
   margin: 0 auto;
