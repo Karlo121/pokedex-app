@@ -34,7 +34,7 @@ ReactDOM.render(
           <Route path='/gen-seven'>
             <Pokedex />
           </Route>
-          <Route exact path='/home'>
+          <Route exact path='/pokedex-app'>
             <Home />
           </Route>
         </Switch>
