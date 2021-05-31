@@ -1,4 +1,4 @@
-import { StyledBox, TypeWrapper } from './Pokemon.style';
+import { PokemonLink, StyledBox, TypeWrapper } from './Pokemon.style';
 import TypeTag from './TypeTag/TypeTag';
 import StatTable from './StatTable/StatTable';
 
@@ -10,16 +10,16 @@ const Pokemon = ({ pokemon }) => {
   ));
 
   return (
-    <StyledBox key={id}>
-      <a
-        href={`https://bulbapedia.bulbagarden.net/wiki/${name.english}_(Pokémon)`}
-      >
+    <PokemonLink
+      href={`https://bulbapedia.bulbagarden.net/wiki/${name.english}_(Pokémon)`}
+    >
+      <StyledBox key={id}>
         <h1>{name.english}</h1>
         <TypeWrapper>{preparedPokemonTypes}</TypeWrapper>
         <img src={`../images/${id}.png`} alt='pokemon ' />
         <StatTable base={base} />
-      </a>
-    </StyledBox>
+      </StyledBox>
+    </PokemonLink>
   );
 };
 

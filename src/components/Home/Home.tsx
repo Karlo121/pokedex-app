@@ -41,6 +41,42 @@ const Home = () => {
             </Circle>
           </StyledLink>
         </HomeLinkWrapper>
+        <HomeLinkWrapper>
+          <StyledLink to='/gen-four'>
+            <Circle>
+              <LinkHeader>
+                <h1>Gen 4</h1>
+              </LinkHeader>
+            </Circle>
+          </StyledLink>
+        </HomeLinkWrapper>
+        <HomeLinkWrapper>
+          <StyledLink to='/gen-five'>
+            <Circle>
+              <LinkHeader>
+                <h1>Gen 5</h1>
+              </LinkHeader>
+            </Circle>
+          </StyledLink>
+        </HomeLinkWrapper>
+        <HomeLinkWrapper>
+          <StyledLink to='/gen-six'>
+            <Circle>
+              <LinkHeader>
+                <h1>Gen 6</h1>
+              </LinkHeader>
+            </Circle>
+          </StyledLink>
+        </HomeLinkWrapper>
+        <HomeLinkWrapper>
+          <StyledLink to='/gen-seven'>
+            <Circle>
+              <LinkHeader>
+                <h1>Gen 7</h1>
+              </LinkHeader>
+            </Circle>
+          </StyledLink>
+        </HomeLinkWrapper>
       </OuterHomeWrap>
     </>
   );

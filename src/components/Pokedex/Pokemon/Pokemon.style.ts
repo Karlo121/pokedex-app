@@ -6,7 +6,7 @@ export const StyledBox = styled.div`
   flex-grow: 1;
   max-width: 350px;
   padding: 5px;
-  margin: 10px 5px 5px 10px;
+
   text-align: center;
   justify-content: space-evenly;
   :hover {
@@ -33,4 +33,10 @@ export const TypeWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+`;
+
+export const PokemonLink = styled.a`
+  text-decoration: none;
+  color: black;
+  margin: 5px;
 `;

@@ -12,7 +12,7 @@ export const StyledSearchBar = styled.input`
 `;
 
 export const SearchBarWrapper = styled.div`
-  width: 400px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;

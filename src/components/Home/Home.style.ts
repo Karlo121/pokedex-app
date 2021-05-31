@@ -32,8 +32,8 @@ export const StyledLink = styled(Link)`
 `;
 
 export const StyledHeader = styled.div`
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -70,13 +70,8 @@ export const OuterHomeWrap = styled.div`
   display: flex;
   margin: 0 auto;
   margin-top: 30px;
-  max-width: 700px;
+  max-width: 850px;
   flex-wrap: wrap;
-  border: 3px solid #fe3c00;
-  border-bottom-left-radius: 50% 25%;
-  border-bottom-right-radius: 50% 25%;
-  border-top-left-radius: 50% 25%;
-  border-top-right-radius: 50% 25%;
   align-items: center;
   justify-content: center;
 `;

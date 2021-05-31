@@ -4,10 +4,9 @@ export const StyledFooter = styled.div`
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 500px;
+  width: 100%;
   text-align: center;
   font-family: 'Arial';
-  padding: 5px;
   h1 {
     color: #fe3c00;
     font-size: 30px;

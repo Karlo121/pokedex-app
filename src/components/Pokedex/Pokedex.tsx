@@ -8,10 +8,11 @@ import { CheckGeneration } from './Pokedex.helper';
 
 const Pokedex = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const pokemon = filterPokemon(pokedexData, searchTerm);
-  const genPokemon = CheckGeneration(pokemon);
 
-  const preparedPokemon = genPokemon.map((pokemon, index) => (
+  const genPokemon = CheckGeneration(pokedexData);
+  const pokemon = filterPokemon(genPokemon, searchTerm);
+
+  const preparedPokemon = pokemon.map((pokemon, index) => (
     <Pokemon key={index} pokemon={pokemon} />
   ));
 
