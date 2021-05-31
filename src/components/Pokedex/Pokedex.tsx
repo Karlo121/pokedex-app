@@ -4,12 +4,14 @@ import { useState } from 'react';
 import Pokemon from './Pokemon/Pokemon';
 import SearchBar from './SearchBar/SearchBar';
 import { filterPokemon } from './Pokedex.helper';
+import { CheckGeneration } from './Pokedex.helper';
 
 const Pokedex = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const pokemon = filterPokemon(pokedexData, searchTerm);
+  const genPokemon = CheckGeneration(pokemon);
 
-  const preparedPokemon = pokemon.map((pokemon, index) => (
+  const preparedPokemon = genPokemon.map((pokemon, index) => (
     <Pokemon key={index} pokemon={pokemon} />
   ));
 

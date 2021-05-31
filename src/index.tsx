@@ -16,6 +16,24 @@ ReactDOM.render(
           <Route path='/gen-one'>
             <Pokedex />
           </Route>
+          <Route path='/gen-two'>
+            <Pokedex />
+          </Route>
+          <Route path='/gen-three'>
+            <Pokedex />
+          </Route>
+          <Route path='/gen-four'>
+            <Pokedex />
+          </Route>
+          <Route path='/gen-five'>
+            <Pokedex />
+          </Route>
+          <Route path='/gen-six'>
+            <Pokedex />
+          </Route>
+          <Route path='/gen-seven'>
+            <Pokedex />
+          </Route>
           <Route exact path='/'>
             <Home />
           </Route>

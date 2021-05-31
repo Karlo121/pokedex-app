@@ -12,7 +12,7 @@ const rotate = keyframes`
   }
 `;
 
-export const LinkHeader = styled.h1`
+export const LinkHeader = styled.div`
   display: flex;
   justify-content: center;
   align-content: center;
@@ -31,7 +31,7 @@ export const StyledLink = styled(Link)`
   text-decoration: none;
 `;
 
-export const StyledHeader = styled.h1`
+export const StyledHeader = styled.div`
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;

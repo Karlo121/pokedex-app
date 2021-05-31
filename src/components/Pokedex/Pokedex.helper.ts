@@ -1,3 +1,6 @@
+import { useLocation } from 'react-router-dom';
+import { generations } from './Pokedex.constants';
+
 const namePredicate = (name: string, searchTerm: string): boolean => {
   return name.toLowerCase().includes(searchTerm);
 };
@@ -20,3 +23,14 @@ export const filterPokemon = (pokedexData, searchTerm) =>
       namePredicate(pokemon.name.english, searchTerm) ||
       typesPredicate(pokemon.type, searchTerm)
   );
+
+export const getRangeFromGeneration = (generation) => {
+  return generations[generation];
+};
+
+export function CheckGeneration(pokemon) {
+  let location = useLocation();
+  const range = getRangeFromGeneration(location.pathname);
+
+  return pokemon.slice(range.from, range.to);
+}
