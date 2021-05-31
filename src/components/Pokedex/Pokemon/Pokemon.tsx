@@ -16,7 +16,7 @@ const Pokemon = ({ pokemon }) => {
       <StyledBox key={id}>
         <h1>{name.english}</h1>
         <TypeWrapper>{preparedPokemonTypes}</TypeWrapper>
-        <img src={`../images/${id}.png`} alt='pokemon ' />
+        <img src={`images/${id}.png`} alt='pokemon ' />
         <StatTable base={base} />
       </StyledBox>
     </PokemonLink>
