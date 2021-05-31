@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <NavBarWrapper>
       <StyledLink to='/pokedex-app' style={{ color: 'white' }}>
-        <h1>Pokedex</h1>
+        <h1>Pokédex</h1>
       </StyledLink>
     </NavBarWrapper>
   );
