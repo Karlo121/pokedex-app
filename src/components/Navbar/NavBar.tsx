@@ -5,7 +5,7 @@ import { StyledLink } from '../Home/Home.style';
 const NavBar = () => {
   return (
     <NavBarWrapper>
-      <StyledLink to='/' style={{ color: 'white' }}>
+      <StyledLink to='/home' style={{ color: 'white' }}>
         <h1>Pokedex</h1>
       </StyledLink>
     </NavBarWrapper>
